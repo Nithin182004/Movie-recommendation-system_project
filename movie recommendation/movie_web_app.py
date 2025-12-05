@@ -134,14 +134,7 @@ def main():
     try:
         st.title("🎬 Content-based Movie Recommender (with Posters)")
 
-        # TMDB info expander
-        with st.expander("TMDB info (click to view)"):
-            tmdb_key_now = get_tmdb_key()
-            st.write("TMDB_API_KEY present?:", bool(tmdb_key_now))
-            if tmdb_key_now:
-                st.write("TMDB_API_KEY (first 8 chars):", tmdb_key_now[:8] + "...")
-            st.write("If the API key is missing, set TMDB_API_KEY in your environment or Streamlit Secrets.")
-
+       
         # Load data
         with st.spinner("Loading data and building features..."):
             movies, ratings, tags, links = load_data()
@@ -232,4 +225,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
