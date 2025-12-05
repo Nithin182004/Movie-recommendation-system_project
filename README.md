@@ -34,9 +34,8 @@ This is a perfect ML + NLP portfolio project that demonstrates data preprocessin
 ---
 
 ## 🚀 Live Demo (Optional)
-> Add your Streamlit Cloud link here after deployment:
 ```
-🔗 https://your-app-name.streamlit.app/
+🔗 [https://movie-recommendation-nithin.streamlit.app]
 ```
 
 ---
