@@ -164,7 +164,7 @@ TMDB_API_KEY = "your_api_key_here"
 ---
 
 ## 👨‍💻 Author
-**Uppala Venkata Satya Srinivas **  
+**G Nithin Kumar**  
 - Data Science Intern  
 - Aspiring Data Scientist  
 - ML & NLP Enthusiast  
